@@ -1,0 +1,20 @@
+{
+  "name": "generic-users-crud",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "set PORT=45678  && mocha --slow 150ms --timeout 30s --exit test/*.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3",
+    "supertest": "^6.2.4"
+  }
+}
